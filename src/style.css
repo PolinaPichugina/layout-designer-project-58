@@ -36,6 +36,7 @@ h5 {
 }
 h1 {
     font-size: 72px;
+    margin: 0;
 }
 h2 {
     font-size: 60px;
@@ -78,11 +79,12 @@ overflow-x: hidden;
 .header-img {
     position: absolute;
     height: 525px;
-    top: 125px;
+    top: 85px;
     right: -270px;
     z-index: -1;
 }
 .container-text {
+    gap: 30px;
     margin-top: 250px;
     display: flex;
 }
