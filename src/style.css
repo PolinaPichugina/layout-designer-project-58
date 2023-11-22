@@ -78,21 +78,23 @@ overflow-x: hidden;
 }
 .header-img {
     position: absolute;
-    height: 525px;
+    height: 505px;
     top: 85px;
     right: -270px;
     z-index: -1;
+    width: auto;
 }
 .container-text {
     gap: 30px;
-    margin-top: 250px;
+    margin-top: 220px;
     display: flex;
 }
 .container-basis {
     flex-basis: 50%;
 }
 .header-btn {
-    margin-top: 20px;
+    width: 148px;
+    height: 49px;
     padding: 12px 24px;
     font-weight: bold;
     color: white;
