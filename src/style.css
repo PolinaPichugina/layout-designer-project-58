@@ -31,6 +31,7 @@ h3 {
     color: var(--primary);
     font-family: "Neucha";
     margin: 0;
+    font-weight: 400;
 }
 h1 {
     font-weight: 400;
@@ -123,4 +124,44 @@ button {
 }
 .nav {
     background-color: var(--prdark);
+}
+.navigation {
+    background-color: var(--prdark);
+    padding-top: 100px;
+}
+.white-text {
+    color: var(--white);
+}
+.nav-text {
+    font-size: 52px;
+}
+.card-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+}
+a {
+    text-decoration: none;
+}
+.card {
+    background-color: var(--light);
+    padding: 24px;
+    
+}
+.number {
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-size: 64px;
+    font-family: "Neucha";
+    line-height: 1;
+}
+p {
+    margin-bottom: 0;
+}
+.card1 {
+    height: 275px;
+}
+.card2 {
+    height: 300px;
 }
