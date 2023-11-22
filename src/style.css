@@ -76,7 +76,7 @@ section {
     flex-basis: 50%;
 }
 button {
-    margin-top: 31px;
+    margin-top: 40px;
     padding: 12px 24px;
     font-weight: 700;
     border: none;
@@ -88,7 +88,6 @@ button {
 .dark {
     color: var(--dark);
     display: block;
-    margin-top: 5px;
 }
 .bg-light {
     position: relative;
@@ -164,4 +163,7 @@ p {
 }
 .card2 {
     height: 300px;
+}
+.f {
+    line-height: 1;
 }
