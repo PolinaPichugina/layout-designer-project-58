@@ -99,4 +99,5 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
+    background-color: var(--light);
 }
