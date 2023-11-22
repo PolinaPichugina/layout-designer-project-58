@@ -70,13 +70,13 @@ section {
 .col2 {
     display: flex;
     column-gap: 30px;
-    margin-top: 170px;
+    margin-top: 180px;
 }
 .primary-basis {
     flex-basis: 50%;
 }
 button {
-    margin-top: 20px;
+    margin-top: 26px;
     padding: 12px 24px;
     font-weight: 700;
     border: none;
