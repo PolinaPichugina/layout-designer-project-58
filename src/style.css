@@ -76,15 +76,14 @@ overflow-x: hidden;
 }
 .header-img {
     position: absolute;
-    height: 490px;
-    top: 85px;
-    right: -260px;
+    height: 525px;
+    top: 55px;
+    right: -170px;
     z-index: -1;
-    width: auto;
 }
 .container-text {
     column-gap:  30px;
-    margin-top: 200px;
+    margin-top: 180px;
     display: flex;
 }
 .container-basis {
