@@ -1,40 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap');
 :root {
-    --white:#fff;
-    --white50:#d7ccc0;
-    --light:#f5f4f0;
-    --primary:#fe8a02;
-    --primary-dark:#42413c;
-    --dark:#2a2626;
-    --dark50:#908d8b;
-    --brown:#b09a81;
-    --blue:#1085c5;
+    --white: #fff;
+    --white50: #d7ccc0;
+    --light: #f5f4f0;
+    --primary: #fe8a02;
+    --prdark: #42413c;
+    --dark: #2a2626;
+    --dark50: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
 }
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+* {
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+}
+body {
+    margin: 0;
+    display: flex;
+   
+}
+p {
+    font-family: "Open Sans";
     font-size: 16px;
     line-height: 1.6em;
     color: var(--dark);
-    margin: 0 auto;
 }
 h1,
 h2,
-h3,
-h4,
-h5 {
-    font-family: "Neucha", sans-serif;
+h3 {
     line-height: 1.2em;
     color: var(--primary);
-    font-weight: 400;
+    font-family: "Neucha";
 }
 h1 {
-    font-size: 72px;
+    font-weight: 400;
     margin: 0;
+    font-size: 72px;
 }
 h2 {
     font-size: 60px;
@@ -42,29 +42,56 @@ h2 {
 h3 {
     font-size: 34px;
 }
-.container
- {
-    padding: 100px 0;
-    position: relative;
-    max-width: 1110px;
-    margin: 0 auto;
+header,
+section {
+    flex-grow: 1;
     box-sizing: border-box;
+    overflow-x: hidden;
+
 }
-header {
+.container {
+    position: relative;
+    width: 1110px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+.main-img {
+    z-index: -1;
+    position: absolute;
+    top: 55px;
+    height: 525px;
+    right: -165px;
     
-width: 100%;
-overflow-x: hidden;
+}
+.col2 {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 170px;
+}
+.primary-basis {
+    flex-basis: 50%;
+}
+button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-weight: 700;
+    border: none;
+    background-color: var(--primary);
+    color: var(--white);
+    width: 148px;
+    height: 49px;
 }
 .dark {
     color: var(--dark);
+    display: block;
+    margin-top: 5px;
 }
 .bg-light {
-    
     position: relative;
 }
 .bg-light::before {
-    content: "";
     z-index: -2;
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
@@ -72,107 +99,4 @@ overflow-x: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
-    background-color: var(--light);
-}
-.header-img {
-    position: absolute;
-    height: 525px;
-    top: 55px;
-    right: -170px;
-    z-index: -1;
-}
-.container-text {
-    column-gap:  30px;
-    margin-top: 180px;
-    display: flex;
-}
-.container-basis {
-    flex-basis: 50%;
-}
-
-button {
-    margin-top: 20px;
-    padding: 12px 24px;
-    text-decoration: none;
-    font-weight: 700;
-    color: var(--white);
-    background-color: var(--primary);
-    border: none;
-}
-.what-it {
-    padding-bottom: 0;
-}
-.what-it-title {
-    margin: 0;
-}
-.container > p {
-    margin-bottom: 30px;
-}
-.shadow {
-    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-}
-.video {
-    position: relative;
-    z-index: 2;
-}
-.text-align {
-    text-align: center;
-}
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 200px;
-}
-.mb0 {
-    margin-bottom: 0;
-}
-.m0 {
-    margin: 0;
-}
-
-.card {
-    display: block;
-    width: 32%;
-    margin-bottom: 20px;
-    background-color: var(--light);
-    text-align: start;
-    padding: 24px;
-    box-sizing: border-box;
-    max-height: 380px;
-}
-.navigation-title-box {
-    width: 32%;
-    display: block;
-    margin: 0;
-    text-align: start;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    max-height: 323px;
-}
-.light {
-    color: var(--white);
-}
-.navigation-title {
-    font-size: 52px;
-    line-height: 1.2em;
-    font-weight: 400;
-    margin: 0;
-}
-#navigation {
-    background-color: var(--primary-dark);
-    margin-top: -100px;
-}
-.number {
-    margin: 0;
-    margin-bottom: 40px;
-    font-size: 64px;
-    font-family: "Neucha";
-    line-height: 1;
-}
-.container-basis > span{
-    font-size: 16px;
-    font-family: "Open Sans";
-    font-weight: 400;
-    line-height: 1.6em;
 }
