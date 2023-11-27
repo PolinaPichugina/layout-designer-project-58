@@ -68,6 +68,7 @@ header, section {
 header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
     background-color: var(--light);
     z-index: -2;
+    height: 100%;
 }
 .main-img {
     position: absolute;
