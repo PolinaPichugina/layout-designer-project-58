@@ -28,6 +28,8 @@ h1, h2, h3 {
 }
 h1 {
     font-size: 72px;
+    position: relative;
+    z-index: 3;
 }
 h2 {
     font-size: 60px;
@@ -46,7 +48,6 @@ header, section {
     display: block;
     position: relative;
     height: 100%;
-    flex-grow: 1;
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -80,7 +81,7 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
     height: 525px;
     top: 55px;
     right: -270px;
-    z-index: -1;
+    z-index: 2;
 }
 .description {
     display: flex;
