@@ -45,10 +45,15 @@ h4 {
 header, section {
     display: block;
     position: relative;
+    height: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 .container {
     position: relative;
     width: 1110px;
+    height: 100%;
     padding: 100px 0;
     width: 1110px;
     margin: 0 auto;
