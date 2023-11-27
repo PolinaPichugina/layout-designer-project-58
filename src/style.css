@@ -115,6 +115,9 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
     text-decoration: none;
     margin-top: 20px;
 }
+.more-block {
+    margin-top: 15px;
+}
 .descr-column {
     flex-basis: 50%;
 }
