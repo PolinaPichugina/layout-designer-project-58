@@ -90,7 +90,7 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
     justify-content: space-between;
 }
 .mt200 {
-    margin-top: 182px;
+    margin-top: 185px;
 }
 .main-color {
     color: var(--main-color);
@@ -113,6 +113,7 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
     color: var(--white);
     background-color: var(--main-color);
     text-decoration: none;
+    margin-top: 20px;
 }
 .descr-column {
     flex-basis: 50%;
