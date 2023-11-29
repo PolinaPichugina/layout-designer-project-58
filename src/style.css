@@ -148,21 +148,19 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
     padding-top: 100px;
     background-color: var(--main-dark-color);
 }
-.nav {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-gap: 20px;
-}
-.nav-name {
+.nav {    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    flex-direction: row;
+    box-sizing: border-box;}
+.nav-name {    
     line-height: 1rem;
-    
-}
-.card {
+    width: 32%;}
+.card {    
     padding: 24px;
-    background-color: var(--light);
-    
-   
+    background-color: var(--light);   
+    width: 32%;
+   margin-bottom: 20px;}
 }
 a.card {
     text-decoration: none;
