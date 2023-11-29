@@ -151,7 +151,7 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
 .nav {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
     grid-gap: 20px;
 }
 .nav-name {
