@@ -45,7 +45,7 @@ h4 {
     font-weight: 400;
 }
 .header {
-    height: 918px;
+    height: 919px;
 }
 header, section {
     display: block;
@@ -136,7 +136,7 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
 .video {
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
     position: relative;
-    margin-top: 37px;
+    margin-top: 29px;
 }
 .video-name {
     margin-top: 5px;
