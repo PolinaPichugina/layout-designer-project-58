@@ -149,21 +149,20 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
     background-color: var(--main-dark-color);
 }
 .nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: row;
-    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 20px;
 }
 .nav-name {
     line-height: 1rem;
-    width: 32%;
+    
 }
 .card {
     padding: 24px;
     background-color: var(--light);
-    width: 32%;
-   margin-bottom: 20px;
+    
+   
 }
 a.card {
     text-decoration: none;
