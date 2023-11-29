@@ -162,7 +162,11 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
     background-color: var(--light);    
     width: 32%;
     height: 350px;
-   margin-bottom: 20px;}
+   }
+.card:nth-child(1), .card:nth-child(2) {
+    margin-bottom: 20px;
+}
+
 a.card {
     text-decoration: none;
 }
