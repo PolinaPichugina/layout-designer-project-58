@@ -161,13 +161,15 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
     padding: 24px;
     background-color: var(--light);    
     width: 32%;
-    height: 350px;
+    
    }
 .card:nth-child(1), .card:nth-child(2) {
     margin-bottom: 20px;
+    height: 323px;
 }
-
-a.card {
+.card:nth-child(3), .card:nth-child(4), .card:nth-child(5) {
+    height: 348px;
+}a.card {
     text-decoration: none;
 }
 .card:hover {
