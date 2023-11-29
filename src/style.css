@@ -230,18 +230,19 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
     padding-left: 10px;
 }
 .i-t {
-    column-count: 2;
-    display: block;
-    column-gap: 30px;
+    display: flex;
+}
+.name-of-distortion {
+    padding-left: 30px;
 }
 .i-t-image {
     vertical-align: middle;
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 img {
-    width: 100%;
+    width: 578px;
+    height: 434px;
 }
-
 .mt0 {
     margin-top: 0;
     margin-bottom: 0;
