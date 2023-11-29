@@ -180,7 +180,9 @@ header, #ikea-effect, #distortion-of-novelty, #errors-in-planning {
 .card:hover * {
     color: var(--white); 
 }
-
+.card * {
+    text-decoration: none;
+}
 .number {
     margin: 0 0 40px 0;
     font-family: 'Neucha', cursive;
